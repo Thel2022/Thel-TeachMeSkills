@@ -12,12 +12,11 @@ namespace ConsoleApp1._8
         }
         public override void PrintShape()
         {
-            Console.WriteLine("Enter size:");
-            int size = int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter symbol:");
-            char symbol = char.Parse(Console.ReadLine());
-            ConsoleColor BorderColor = ConsoleColor.Blue;
-            Console.ForegroundColor = BorderColor;
+            var printer = new Printer();
+            int size = printer.EnterSize();
+            char symbol = printer.EnterSymbol();
+            int x1 = printer.EnterX();
+            int y1 = printer.EnterY();
             while (size <= 0) ;
             double thickness = 0.4;
             Console.WriteLine();
@@ -25,6 +24,8 @@ namespace ConsoleApp1._8
 
             for (double y = size; y >= -size; --y)
             {
+                Console.SetCursorPosition(x1, y1);
+                y1++;
                 for (double x = -size; x < rOut; x += 0.5)
                 {
                     double value = x * x + y * y;

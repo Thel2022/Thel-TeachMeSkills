@@ -22,8 +22,7 @@ namespace ConsoleApp1._8
                     trianguleShape.PrintShape();
                     break;
                 case 2:
-                    var rectangleShape = new RectangleShape();
-                    rectangleShape.PrintShape();
+             
                     break;
                 case 3:
                     var circleShape = new CircleShape();
