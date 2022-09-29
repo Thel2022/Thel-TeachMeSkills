@@ -6,7 +6,7 @@ namespace ConsoleApp1._8
 {
     internal class CircleShape : Shape
     {
-        public CircleShape()
+        public CircleShape(string name, int size, int x, int y):base(name, size, x, y)
         {
 
         }

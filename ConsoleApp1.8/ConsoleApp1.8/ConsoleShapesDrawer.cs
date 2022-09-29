@@ -6,6 +6,8 @@ namespace ConsoleApp1._8
     {
         static void Main(string[] args)
         {
+           
+            
             var printer = new Printer();
             printer.Menu();
 

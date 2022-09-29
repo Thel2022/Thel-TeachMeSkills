@@ -6,7 +6,7 @@ namespace ConsoleApp1._8
 {
     internal class TriangleShape : Shape
     {
-        public TriangleShape()
+        public TriangleShape(string name, int size, int x, int y):base(name, size, x, y)
         {
 
         }
