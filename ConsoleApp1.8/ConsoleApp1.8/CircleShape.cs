@@ -6,29 +6,24 @@ namespace ConsoleApp1._8
 {
     internal class CircleShape : Shape
     {
-        public CircleShape(string name, int size, int x, int y):base(name, size, x, y)
+        public CircleShape(string name, int size, char symbol, int x, int y):base(name, size, symbol, x, y)
         {
 
         }
-        public override void PrintShape()
+        public override void PrintShape(string name, int size, char symbol, int x, int y)
         {
-            var printer = new Printer();
-            int size = printer.EnterSize();
-            char symbol = printer.EnterSymbol();
-            int x1 = printer.EnterX();
-            int y1 = printer.EnterY();
             while (size <= 0) ;
             double thickness = 0.4;
             Console.WriteLine();
             double rIn = size - thickness, rOut = size + thickness;
 
-            for (double y = size; y >= -size; --y)
+            for (double y1 = size; y1 >= -size; --y1)
             {
-                Console.SetCursorPosition(x1, y1);
-                y1++;
-                for (double x = -size; x < rOut; x += 0.5)
+                Console.SetCursorPosition(x, y);
+                y++;
+                for (double x1 = -size; x1 < rOut; x1 += 0.5)
                 {
-                    double value = x * x + y * y;
+                    double value = x1 * x1 + y1 * y1;
                     if (value >= rIn * rIn && value <= rOut * rOut)
                     {
                         Console.Write(symbol);

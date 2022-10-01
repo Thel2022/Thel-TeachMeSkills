@@ -9,8 +9,8 @@ namespace ConsoleApp1._8
            
             
             var printer = new Printer();
-            printer.Menu();
-
+            printer.MenuAndPrint();
+ 
 
            
         }

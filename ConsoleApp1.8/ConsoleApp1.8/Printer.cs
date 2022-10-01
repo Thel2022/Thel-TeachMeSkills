@@ -11,51 +11,92 @@ namespace ConsoleApp1._8
 
         }
 
-
-  
-       public void Menu()
+       public void MenuAndPrint()
+        {
+            string name = ShapeSelection();
+            int size = EnterSize();
+            char symbol = EnterSymbol();
+            int x = EnterX();
+            int y = EnterY();
+            Console.Clear();
+            if (name == "triangule")
+            {
+                var shape = new TriangleShape(name, size, symbol, x, y);
+                shape.PrintShape(name, size, symbol, x, y);
+            }
+            else if (name == "rectangule")
+            {
+                var shape = new RectangleShape(name, size, symbol, x, y);
+                shape.PrintShape(name, size, symbol, x, y);
+            }
+            else if (name == "circle")
+            {
+                var shape = new CircleShape(name, size, symbol, x, y);
+                shape.PrintShape(name, size, symbol, x, y);
+            }
+            Console.SetCursorPosition(1, 1);
+            Reverse();
+        }
+       public string ShapeSelection()
         {
             Console.WriteLine("Choose a shape:\n1 for triangule\n2 for rectangule\n3 for circle");
-            int ch = Convert.ToInt32(Console.ReadLine());
-            switch (ch)
+            int choice = Convert.ToInt32(Console.ReadLine());
+            string name;
+            if (choice == 1)
             {
-                case 1:
-                    var trianguleShape = new TriangleShape();
-                    trianguleShape.PrintShape();
-                    break;
-                case 2:
-             
-                    break;
-                case 3:
-                    var circleShape = new CircleShape();
-                    circleShape.PrintShape();
-                    break;
+                name = "triangule";
+                return name;
             }
-
+            else if (choice == 2)
+            {
+                name = "rectangule";
+                return name;
+            }
+            else if (choice == 3)
+            {
+                name = "circle";
+                return name;
+            }
+            else name = "errr";
+            return name;
         }
+           
        public int EnterSize()
         {
-            Console.WriteLine("Enter Size:");
+            Console.Write("Enter Size:");
             int size = int.Parse(Console.ReadLine());
             return size;
         }
        public char EnterSymbol()
         {
-            Console.WriteLine("Enter symbol:");
+            Console.Write("Enter symbol:");
             char symbol = char.Parse(Console.ReadLine());
             return symbol;
         }
-        public int EnterX()
+       public int EnterX()
         {
-            Console.WriteLine("Enter coordinate X:");
+            Console.Write("Enter coordinate X:");
             int x = int.Parse(Console.ReadLine());
             return x;
         }
-        public int EnterY()
+       public int EnterY()
         {
-            Console.WriteLine("Enter coordinate Y:");
+            Console.Write("Enter coordinate Y:");
             int y = int.Parse(Console.ReadLine());
             return y;
+        }
+       public void Reverse()
+        {
+            Console.WriteLine("Do you want to continue (yes/no)?");
+            string choice2 = Console.ReadLine();
+            if (choice2 == "yes")
+            {
+                MenuAndPrint();
+            }
+            else if (choice2 == "no")
+            {
+                Environment.Exit(0);
+            }
         }
     }
 }

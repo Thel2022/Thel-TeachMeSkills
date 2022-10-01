@@ -4,21 +4,21 @@ using System.Text;
 
 namespace ConsoleApp1._8
 {
-    internal class TriangleShape : Shape
+    internal class RectangleShape : Shape
     {
-        public TriangleShape(string name, int size, char symbol, int x, int y):base(name, size, symbol, x, y)
+        public RectangleShape (string name, int size, char symbol, int x, int y) : base(name, size, symbol, x, y)
         {
 
         }
         public override void PrintShape(string name, int size, char symbol, int x, int y)
         {
-            for (var i = 1; i <= size; i++)
+            for (int i = 0; i <= size; i++)
             {
                 Console.SetCursorPosition(x, y);
                 y++;
-                for (var j = 1; j <= i; j++)
+                for (int j = 0; j <= size; j++)
                 {
-                    if (j == 1 || j == i || i == size)
+                    if (i == 0 || i == size || j == 0 || j == size)
                     {
                         Console.Write(symbol);
                     }
@@ -29,7 +29,6 @@ namespace ConsoleApp1._8
                 }
                 Console.WriteLine();
             }
-            Console.ReadLine();
         }
     }
 }
