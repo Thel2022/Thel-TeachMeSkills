@@ -14,6 +14,17 @@ namespace ConsoleApp1._8
        public void MenuAndPrint()
         {
             string name = ShapeSelection();
+            if (name == "text")
+            {
+                int x1 = EnterX();
+                int y1 = EnterY();
+                string content = Console.ReadLine();
+                Console.Clear();
+                var text = new Text(name, content, x1, y1);
+                text.PrintText(name, content, x1, y1);
+                Console.SetCursorPosition(0, 0);
+                Reverse();
+            }
             int size = EnterSize();
             char symbol = EnterSymbol();
             int x = EnterX();
@@ -34,12 +45,12 @@ namespace ConsoleApp1._8
                 var shape = new CircleShape(name, size, symbol, x, y);
                 shape.PrintShape(name, size, symbol, x, y);
             }
-            Console.SetCursorPosition(1, 1);
+            Console.SetCursorPosition(0, 0);
             Reverse();
         }
        public string ShapeSelection()
         {
-            Console.WriteLine("Choose a shape:\n1 for triangule\n2 for rectangule\n3 for circle");
+            Console.WriteLine("Choose a shape:\n1 for triangule\n2 for rectangule\n3 for circle\n4 for text");
             int choice = Convert.ToInt32(Console.ReadLine());
             string name;
             if (choice == 1)
@@ -55,6 +66,11 @@ namespace ConsoleApp1._8
             else if (choice == 3)
             {
                 name = "circle";
+                return name;
+            }
+            else if (choice == 4)
+            {
+                name = "text";
                 return name;
             }
             else name = "errr";
@@ -98,5 +114,6 @@ namespace ConsoleApp1._8
                 Environment.Exit(0);
             }
         }
+
     }
 }
