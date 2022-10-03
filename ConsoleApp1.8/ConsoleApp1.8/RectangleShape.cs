@@ -4,13 +4,14 @@ using System.Text;
 
 namespace ConsoleApp1._8
 {
-    internal class RectangleShape : Shape
+    [Color(ConsoleColor.Red)]
+    internal class RectangleShape : Shape, IPrintable
     {
         public RectangleShape (string name, int size, char symbol, int x, int y) : base(name, size, symbol, x, y)
         {
 
         }
-        public override void PrintShape(string name, int size, char symbol, int x, int y)
+        public override void Print(string name, int size, char symbol, int x, int y)
         {
             for (int i = 0; i <= size; i++)
             {

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp1._8
 {
-    public class Printer : IPrintable
+    public class Printer : IPrinter
     {
        public Printer()
         {
@@ -18,34 +18,36 @@ namespace ConsoleApp1._8
             {
                 int x1 = EnterX();
                 int y1 = EnterY();
-                string content = Console.ReadLine();
+                int size1 = 1;
+                char symbol1 = '+';
                 Console.Clear();
-                var text = new Text(name, content, x1, y1);
-                text.PrintText(name, content, x1, y1);
+                var text = new Text(name, x1, y1);
+                text.Print(name, size1, symbol1, x1, y1);
                 Console.SetCursorPosition(0, 0);
                 Reverse();
             }
+
             int size = EnterSize();
             char symbol = EnterSymbol();
             int x = EnterX();
             int y = EnterY();
             Console.Clear();
-            if (name == "triangule")
+            var shape = ShapeCreator(name, size, symbol, x, y);
+            Type tp = shape.GetType();
+            object[] attr = tp.GetCustomAttributes(false);
+            foreach (object o in attr)
             {
-                var shape = new TriangleShape(name, size, symbol, x, y);
-                shape.PrintShape(name, size, symbol, x, y);
+                if (o is ColorAttribute colorAttribute)
+
+                {
+
+                    Console.ForegroundColor = colorAttribute.ObjectColor;
+
+                }
             }
-            else if (name == "rectangule")
-            {
-                var shape = new RectangleShape(name, size, symbol, x, y);
-                shape.PrintShape(name, size, symbol, x, y);
-            }
-            else if (name == "circle")
-            {
-                var shape = new CircleShape(name, size, symbol, x, y);
-                shape.PrintShape(name, size, symbol, x, y);
-            }
+            shape.Print(name, size, symbol, x, y);
             Console.SetCursorPosition(0, 0);
+            Console.ResetColor();
             Reverse();
         }
        public string ShapeSelection()
@@ -75,8 +77,7 @@ namespace ConsoleApp1._8
             }
             else name = "errr";
             return name;
-        }
-           
+        }   
        public int EnterSize()
         {
             Console.Write("Enter Size:");
@@ -85,9 +86,17 @@ namespace ConsoleApp1._8
         }
        public char EnterSymbol()
         {
-            Console.Write("Enter symbol:");
-            char symbol = char.Parse(Console.ReadLine());
-            return symbol;
+            try
+            {
+                Console.Write("Enter symbol:");
+                char symbol = char.Parse(Console.ReadLine());
+                return symbol;
+            }
+            catch
+            {
+                Console.WriteLine("Something is wrong! Default symbol is '*'");
+                return '*';
+            }
         }
        public int EnterX()
         {
@@ -114,6 +123,32 @@ namespace ConsoleApp1._8
                 Environment.Exit(0);
             }
         }
+       public Shape ShapeCreator(string name, int size, char symbol, int x, int y)
+        {
+
+            object shape1 = new object();
+
+            if (name == "triangule")
+            {
+                var shape = new TriangleShape(name, size, symbol, x, y);
+                return shape;
+            }
+            else if (name == "rectangule")
+            {
+                var shape = new RectangleShape(name, size, symbol, x, y);
+                return shape;
+            }
+            else if (name == "circle")
+            {
+                var shape = new CircleShape(name, size, symbol, x, y);
+                return shape;
+            }
+            else
+                return (Shape)shape1;
+
+
+        }
+
 
     }
 }

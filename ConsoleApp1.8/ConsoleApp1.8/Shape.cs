@@ -4,7 +4,8 @@ using System.Text;
 
 namespace ConsoleApp1._8
 {
-    abstract class Shape
+    [Color(ConsoleColor.Blue)]
+    public abstract class Shape : IPrintable
     {
         public string Name { get; set; }
         public int Size { get; set; }
@@ -21,7 +22,7 @@ namespace ConsoleApp1._8
             Y = y;
         }
 
-        public abstract void PrintShape(string name, int size, char symbol, int x, int y);
+        public abstract void Print(string name, int size, char symbol, int x, int y);
     }
     
    

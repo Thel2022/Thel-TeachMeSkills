@@ -4,13 +4,14 @@ using System.Text;
 
 namespace ConsoleApp1._8
 {
-    internal class CircleShape : Shape
+    [Color(ConsoleColor.Magenta)]
+    internal class CircleShape : Shape, IPrintable
     {
         public CircleShape(string name, int size, char symbol, int x, int y):base(name, size, symbol, x, y)
         {
 
         }
-        public override void PrintShape(string name, int size, char symbol, int x, int y)
+        public override void Print(string name, int size, char symbol, int x, int y)
         {
             while (size <= 0) ;
             double thickness = 0.4;

@@ -4,13 +4,14 @@ using System.Text;
 
 namespace ConsoleApp1._8
 {
-    internal class TriangleShape : Shape
+    [Color(ConsoleColor.Green)]
+    internal class TriangleShape : Shape, IPrintable
     {
         public TriangleShape(string name, int size, char symbol, int x, int y):base(name, size, symbol, x, y)
         {
 
         }
-        public override void PrintShape(string name, int size, char symbol, int x, int y)
+        public override void Print(string name, int size, char symbol, int x, int y)
         {
             for (var i = 1; i <= size; i++)
             {

@@ -4,16 +4,8 @@ using System.Text;
 
 namespace ConsoleApp1._8
 {
-    interface IPrintable
+    internal interface IPrintable
     {
-
-        void MenuAndPrint();
-        string ShapeSelection();
-        int EnterSize();
-        char EnterSymbol();
-        int EnterX();
-        int EnterY();
-        void Reverse();
-
+        public void Print(string name, int size, char symbol, int x, int y);
     }
 }

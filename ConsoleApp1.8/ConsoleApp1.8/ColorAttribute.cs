@@ -4,11 +4,22 @@ using System.Text;
 
 namespace ConsoleApp1._8
 {
-    [AttributeUsage(AttributeTargets.Constructor)]
     class ColorAttribute : Attribute
     {
-        public string Name { get; }
-        public ColorAttribute () { }
-        public ColorAttribute(string name) => Name = name;
+
+        public ConsoleColor ObjectColor { get; set; }
+
+        public ColorAttribute(ConsoleColor color)
+
+        {
+
+            ObjectColor = color;
+
+        }
+
+
+
     }
+
 }
+
