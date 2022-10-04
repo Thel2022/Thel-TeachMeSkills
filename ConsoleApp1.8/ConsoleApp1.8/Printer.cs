@@ -14,15 +14,14 @@ namespace ConsoleApp1._8
        public void MenuAndPrint()
         {
             string name = ShapeSelection();
+
             if (name == "text")
             {
                 int x1 = EnterX();
                 int y1 = EnterY();
-                int size1 = 1;
-                char symbol1 = '+';
                 Console.Clear();
                 var text = new Text(name, x1, y1);
-                text.Print(name, size1, symbol1, x1, y1);
+                text.Print();
                 Console.SetCursorPosition(0, 0);
                 Reverse();
             }
@@ -31,8 +30,11 @@ namespace ConsoleApp1._8
             char symbol = EnterSymbol();
             int x = EnterX();
             int y = EnterY();
+
             Console.Clear();
+
             var shape = ShapeCreator(name, size, symbol, x, y);
+
             Type tp = shape.GetType();
             object[] attr = tp.GetCustomAttributes(false);
             foreach (object o in attr)
@@ -45,11 +47,15 @@ namespace ConsoleApp1._8
 
                 }
             }
-            shape.Print(name, size, symbol, x, y);
+
+            shape.Print();
+
             Console.SetCursorPosition(0, 0);
             Console.ResetColor();
+
             Reverse();
         }
+
        public string ShapeSelection()
         {
             Console.WriteLine("Choose a shape:\n1 for triangule\n2 for rectangule\n3 for circle\n4 for text");

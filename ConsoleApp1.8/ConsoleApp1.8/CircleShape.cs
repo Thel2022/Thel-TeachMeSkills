@@ -11,23 +11,23 @@ namespace ConsoleApp1._8
         {
 
         }
-        public override void Print(string name, int size, char symbol, int x, int y)
+        public override void Print()
         {
-            while (size <= 0) ;
+            while (Size <= 0) ;
             double thickness = 0.4;
             Console.WriteLine();
-            double rIn = size - thickness, rOut = size + thickness;
+            double rIn = Size - thickness, rOut = Size + thickness;
 
-            for (double y1 = size; y1 >= -size; --y1)
+            for (double y1 = Size; y1 >= -Size; --y1)
             {
-                Console.SetCursorPosition(x, y);
-                y++;
-                for (double x1 = -size; x1 < rOut; x1 += 0.5)
+                Console.SetCursorPosition(X, Y);
+                Y++;
+                for (double x1 = -Size; x1 < rOut; x1 += 0.5)
                 {
                     double value = x1 * x1 + y1 * y1;
                     if (value >= rIn * rIn && value <= rOut * rOut)
                     {
-                        Console.Write(symbol);
+                        Console.Write(Symbol);
                     }
                     else
                     {

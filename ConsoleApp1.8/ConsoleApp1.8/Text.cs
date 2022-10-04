@@ -17,10 +17,10 @@ namespace ConsoleApp1._8
             X = x;
             Y = y;
         }
-        public void Print(string name, int size, char symbol, int x, int y)
+        public void Print()
         {
             string content = Console.ReadLine();
-            Console.SetCursorPosition(x, y);
+            Console.SetCursorPosition(X, Y);
             Console.WriteLine(content);
         }
     }

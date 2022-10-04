@@ -40,3 +40,17 @@ C:\Users\strela\source\repos\Thel-TeachMeSkills\ConsoleApp1.8\ConsoleApp1.8\obj\
 C:\Users\strela\source\repos\Thel-TeachMeSkills\ConsoleApp1.8\ConsoleApp1.8\obj\Debug\netcoreapp3.1\ConsoleApp1.8.dll
 C:\Users\strela\source\repos\Thel-TeachMeSkills\ConsoleApp1.8\ConsoleApp1.8\obj\Debug\netcoreapp3.1\ConsoleApp1.8.pdb
 C:\Users\strela\source\repos\Thel-TeachMeSkills\ConsoleApp1.8\ConsoleApp1.8\obj\Debug\netcoreapp3.1\ConsoleApp1.8.genruntimeconfig.cache
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.8\ConsoleApp1.8\obj\Debug\netcoreapp3.1\ConsoleApp1.8.csproj.AssemblyReference.cache
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.8\ConsoleApp1.8\obj\Debug\netcoreapp3.1\ConsoleApp1.8.GeneratedMSBuildEditorConfig.editorconfig
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.8\ConsoleApp1.8\obj\Debug\netcoreapp3.1\ConsoleApp1.8.AssemblyInfoInputs.cache
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.8\ConsoleApp1.8\obj\Debug\netcoreapp3.1\ConsoleApp1.8.AssemblyInfo.cs
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.8\ConsoleApp1.8\obj\Debug\netcoreapp3.1\ConsoleApp1.8.csproj.CoreCompileInputs.cache
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.8\ConsoleApp1.8\obj\Debug\netcoreapp3.1\ConsoleApp1.8.dll
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.8\ConsoleApp1.8\obj\Debug\netcoreapp3.1\ConsoleApp1.8.pdb
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.8\ConsoleApp1.8\bin\Debug\netcoreapp3.1\ConsoleApp1.8.exe
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.8\ConsoleApp1.8\bin\Debug\netcoreapp3.1\ConsoleApp1.8.deps.json
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.8\ConsoleApp1.8\bin\Debug\netcoreapp3.1\ConsoleApp1.8.runtimeconfig.json
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.8\ConsoleApp1.8\bin\Debug\netcoreapp3.1\ConsoleApp1.8.runtimeconfig.dev.json
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.8\ConsoleApp1.8\bin\Debug\netcoreapp3.1\ConsoleApp1.8.dll
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.8\ConsoleApp1.8\bin\Debug\netcoreapp3.1\ConsoleApp1.8.pdb
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.8\ConsoleApp1.8\obj\Debug\netcoreapp3.1\ConsoleApp1.8.genruntimeconfig.cache

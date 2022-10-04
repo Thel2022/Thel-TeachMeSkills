@@ -22,7 +22,7 @@ namespace ConsoleApp1._8
             Y = y;
         }
 
-        public abstract void Print(string name, int size, char symbol, int x, int y);
+        public abstract void Print();
     }
     
    

@@ -11,17 +11,17 @@ namespace ConsoleApp1._8
         {
 
         }
-        public override void Print(string name, int size, char symbol, int x, int y)
+        public override void Print()
         {
-            for (int i = 0; i <= size; i++)
+            for (int i = 0; i <= Size; i++)
             {
-                Console.SetCursorPosition(x, y);
-                y++;
-                for (int j = 0; j <= size; j++)
+                Console.SetCursorPosition(X, Y);
+                Y++;
+                for (int j = 0; j <= Size; j++)
                 {
-                    if (i == 0 || i == size || j == 0 || j == size)
+                    if (i == 0 || i == Size || j == 0 || j == Size)
                     {
-                        Console.Write(symbol);
+                        Console.Write(Symbol);
                     }
                     else
                     {

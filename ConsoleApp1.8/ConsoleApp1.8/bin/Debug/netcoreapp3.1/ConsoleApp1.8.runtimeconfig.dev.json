@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\strela\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\strela\\.nuget\\packages"
+      "C:\\Users\\TMS-46\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\TMS-46\\.nuget\\packages"
     ]
   }
 }

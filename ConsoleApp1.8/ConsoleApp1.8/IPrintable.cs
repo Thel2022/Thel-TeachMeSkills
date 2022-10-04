@@ -6,6 +6,21 @@ namespace ConsoleApp1._8
 {
     internal interface IPrintable
     {
-        public void Print(string name, int size, char symbol, int x, int y);
+        public void Print();
+
+        //public event Action<string> RepeatEvent;
+
+        /*public event EventHandler <RepeatEventArgs> RepeatEvent;
+
+        public void Reapit() { }
+
+        protected virtual void OnRepeatEvent()
+        {
+           
+        }
+
+        /* https://professorweb.ru/my/csharp/charp_theory/level10/10_9.php
+         * https://learn.microsoft.com/en-us/dotnet/api/system.eventargs?view=net-6.0
+         */
     }
 }
