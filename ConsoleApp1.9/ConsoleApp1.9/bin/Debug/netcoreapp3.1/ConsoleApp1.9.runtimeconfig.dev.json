@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\strela\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\strela\\.nuget\\packages"
+    ]
+  }
+}
