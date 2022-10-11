@@ -12,3 +12,16 @@ C:\Users\strela\source\repos\Thel-TeachMeSkills\ConsoleApp1.9\ConsoleApp1.9\obj\
 C:\Users\strela\source\repos\Thel-TeachMeSkills\ConsoleApp1.9\ConsoleApp1.9\obj\Debug\netcoreapp3.1\ConsoleApp1.9.dll
 C:\Users\strela\source\repos\Thel-TeachMeSkills\ConsoleApp1.9\ConsoleApp1.9\obj\Debug\netcoreapp3.1\ConsoleApp1.9.pdb
 C:\Users\strela\source\repos\Thel-TeachMeSkills\ConsoleApp1.9\ConsoleApp1.9\obj\Debug\netcoreapp3.1\ConsoleApp1.9.genruntimeconfig.cache
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.9\ConsoleApp1.9\bin\Debug\netcoreapp3.1\ConsoleApp1.9.exe
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.9\ConsoleApp1.9\bin\Debug\netcoreapp3.1\ConsoleApp1.9.deps.json
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.9\ConsoleApp1.9\bin\Debug\netcoreapp3.1\ConsoleApp1.9.runtimeconfig.json
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.9\ConsoleApp1.9\bin\Debug\netcoreapp3.1\ConsoleApp1.9.runtimeconfig.dev.json
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.9\ConsoleApp1.9\bin\Debug\netcoreapp3.1\ConsoleApp1.9.dll
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.9\ConsoleApp1.9\bin\Debug\netcoreapp3.1\ConsoleApp1.9.pdb
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.9\ConsoleApp1.9\obj\Debug\netcoreapp3.1\ConsoleApp1.9.csprojAssemblyReference.cache
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.9\ConsoleApp1.9\obj\Debug\netcoreapp3.1\ConsoleApp1.9.AssemblyInfoInputs.cache
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.9\ConsoleApp1.9\obj\Debug\netcoreapp3.1\ConsoleApp1.9.AssemblyInfo.cs
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.9\ConsoleApp1.9\obj\Debug\netcoreapp3.1\ConsoleApp1.9.csproj.CoreCompileInputs.cache
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.9\ConsoleApp1.9\obj\Debug\netcoreapp3.1\ConsoleApp1.9.dll
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.9\ConsoleApp1.9\obj\Debug\netcoreapp3.1\ConsoleApp1.9.pdb
+D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.9\ConsoleApp1.9\obj\Debug\netcoreapp3.1\ConsoleApp1.9.genruntimeconfig.cache

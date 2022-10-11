@@ -6,44 +6,10 @@ namespace ConsoleApp1._9
     {
         static void Main(string[] args)
         {
-            MyLinkedList<string> linkedlist = new MyLinkedList<string>();
-            linkedlist.Add("Name");
-            linkedlist.Add("Age");
-            linkedlist.Add("Sex");
-            linkedlist.Add("Profession");
+            Table<int, int, int> table = new Table<int, int, int>(1, 2, 3);
+            Table<int, int, int> table1 = new Table<int, int, int>(4, 5, 6);
 
-            Console.WriteLine("List output");
-
-            foreach (var item in linkedlist)
-            {
-                Console.WriteLine(item);
-            }
-
-            Console.Write("Enter the index of the list item to be removed:");
-
-            int index = Convert.ToInt32(Console.ReadLine());
-
-            linkedlist.RemoveAt(index);
-
-            Console.WriteLine("List output in reverse order (subject to changes):");
-
-            foreach (var t in linkedlist.BackEnumerator())
-            {
-                Console.WriteLine(t);
-            }
-
-            Console.Write("Enter the index of the list item to be added:");
-
-            int index1 = Convert.ToInt32(Console.ReadLine());
-
-            linkedlist.InsertAt("Experience", index1);
-
-            Console.WriteLine("List output (subject to changes):");
-
-            foreach (var item in linkedlist)
-            {
-                Console.WriteLine(item);
-            }
+            Console.WriteLine(table.FirstColumnData);
 
         }
     }
