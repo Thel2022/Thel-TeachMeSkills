@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\strela\\source\\repos\\Thel-TeachMeSkills\\ConsoleApp1.9\\ConsoleApp1.9\\ConsoleApp1.9.csproj": {}
+    "D:\\Students_Projekts\\KDV\\Thel-TeachMeSkills\\ConsoleApp1.9\\ConsoleApp1.9\\ConsoleApp1.9.csproj": {}
   },
   "projects": {
-    "C:\\Users\\strela\\source\\repos\\Thel-TeachMeSkills\\ConsoleApp1.9\\ConsoleApp1.9\\ConsoleApp1.9.csproj": {
+    "D:\\Students_Projekts\\KDV\\Thel-TeachMeSkills\\ConsoleApp1.9\\ConsoleApp1.9\\ConsoleApp1.9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\strela\\source\\repos\\Thel-TeachMeSkills\\ConsoleApp1.9\\ConsoleApp1.9\\ConsoleApp1.9.csproj",
+        "projectUniqueName": "D:\\Students_Projekts\\KDV\\Thel-TeachMeSkills\\ConsoleApp1.9\\ConsoleApp1.9\\ConsoleApp1.9.csproj",
         "projectName": "ConsoleApp1.9",
-        "projectPath": "C:\\Users\\strela\\source\\repos\\Thel-TeachMeSkills\\ConsoleApp1.9\\ConsoleApp1.9\\ConsoleApp1.9.csproj",
-        "packagesPath": "C:\\Users\\strela\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\strela\\source\\repos\\Thel-TeachMeSkills\\ConsoleApp1.9\\ConsoleApp1.9\\obj\\",
+        "projectPath": "D:\\Students_Projekts\\KDV\\Thel-TeachMeSkills\\ConsoleApp1.9\\ConsoleApp1.9\\ConsoleApp1.9.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\Students_Projekts\\KDV\\Thel-TeachMeSkills\\ConsoleApp1.9\\ConsoleApp1.9\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\strela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
