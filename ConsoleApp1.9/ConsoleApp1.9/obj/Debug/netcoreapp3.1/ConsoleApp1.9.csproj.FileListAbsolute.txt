@@ -25,3 +25,5 @@ D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.9\ConsoleApp1.9\obj\Debu
 D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.9\ConsoleApp1.9\obj\Debug\netcoreapp3.1\ConsoleApp1.9.dll
 D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.9\ConsoleApp1.9\obj\Debug\netcoreapp3.1\ConsoleApp1.9.pdb
 D:\Students_Projects\KDV\Thel-TeachMeSkills\ConsoleApp1.9\ConsoleApp1.9\obj\Debug\netcoreapp3.1\ConsoleApp1.9.genruntimeconfig.cache
+C:\Users\strela\source\repos\Thel-TeachMeSkills\ConsoleApp1.9\ConsoleApp1.9\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\strela\source\repos\Thel-TeachMeSkills\ConsoleApp1.9\ConsoleApp1.9\obj\Debug\netcoreapp3.1\ConsoleApp1.9.csproj.CopyComplete

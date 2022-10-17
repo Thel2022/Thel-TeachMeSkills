@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "p7d2ax4G0Ww9f6iAMUjjXe38oHI5wDhsYpn8q18uZ282f+zQHgrAdVnqqP0gicfRQjK/uhIgrFie4Ap8MshnIw==",
+  "dgSpecHash": "GdPctb9PxroFH8rJJBFGM702sO4YQ6n3ljSDLgC31giETbz/6Xc+4n4f16RxEdTgPs8UTaoyIMLHm9EgzVdf9g==",
   "success": true,
-  "projectFilePath": "D:\\Students_Projekts\\KDV\\Thel-TeachMeSkills\\ConsoleApp1.9\\ConsoleApp1.9\\ConsoleApp1.9.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\strela\\source\\repos\\Thel-TeachMeSkills\\ConsoleApp1.9\\ConsoleApp1.9\\ConsoleApp1.9.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\strela\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

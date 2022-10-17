@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Students_Projekts\\KDV\\Thel-TeachMeSkills\\ConsoleApp1.9\\ConsoleApp1.9\\ConsoleApp1.9.csproj": {}
+    "C:\\Users\\strela\\source\\repos\\Thel-TeachMeSkills\\ConsoleApp1.9\\ConsoleApp1.9\\ConsoleApp1.9.csproj": {}
   },
   "projects": {
-    "D:\\Students_Projekts\\KDV\\Thel-TeachMeSkills\\ConsoleApp1.9\\ConsoleApp1.9\\ConsoleApp1.9.csproj": {
+    "C:\\Users\\strela\\source\\repos\\Thel-TeachMeSkills\\ConsoleApp1.9\\ConsoleApp1.9\\ConsoleApp1.9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Students_Projekts\\KDV\\Thel-TeachMeSkills\\ConsoleApp1.9\\ConsoleApp1.9\\ConsoleApp1.9.csproj",
+        "projectUniqueName": "C:\\Users\\strela\\source\\repos\\Thel-TeachMeSkills\\ConsoleApp1.9\\ConsoleApp1.9\\ConsoleApp1.9.csproj",
         "projectName": "ConsoleApp1.9",
-        "projectPath": "D:\\Students_Projekts\\KDV\\Thel-TeachMeSkills\\ConsoleApp1.9\\ConsoleApp1.9\\ConsoleApp1.9.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Students_Projekts\\KDV\\Thel-TeachMeSkills\\ConsoleApp1.9\\ConsoleApp1.9\\obj\\",
+        "projectPath": "C:\\Users\\strela\\source\\repos\\Thel-TeachMeSkills\\ConsoleApp1.9\\ConsoleApp1.9\\ConsoleApp1.9.csproj",
+        "packagesPath": "C:\\Users\\strela\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\strela\\source\\repos\\Thel-TeachMeSkills\\ConsoleApp1.9\\ConsoleApp1.9\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\strela\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

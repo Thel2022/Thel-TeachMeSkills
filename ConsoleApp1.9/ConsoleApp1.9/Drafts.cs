@@ -6,7 +6,28 @@ namespace ConsoleApp1._9
 {
     class Drafts
     {
-        /*MyLinkedList<string> linkedlist = new MyLinkedList<string>();
+        /*
+         *  int a = 5;
+            Table<int, int, int>[] mytable = new Table<int, int, int>[a];
+            mytable[0] = new Table<int, int, int>(0, 1, 2);
+            mytable[1] = new Table<int, int, int>(3, 4, 5);
+            mytable[2] = new Table<int, int, int>(6, 7, 8);
+            mytable[3] = new Table<int, int, int>(9, 10, 11);
+            mytable[4] = new Table<int, int, int>(12, 13, 14);
+            foreach (Table<int, int, int> i in mytable)
+            Console.WriteLine("{0}\t{1}\t{2}", i.FirstColumnData, i.SecondColumnData, i.ThirdColumnData);
+         * 
+         * public T  FirstColumnData { get; set; }
+        public U SecondColumnData { get; set; }
+        public Z ThirdColumnData { get; set; }
+        public Table(T firstColumnData, U secondColumnData, Z thirdColumnData)
+        {
+            FirstColumnData = firstColumnData;
+            SecondColumnData = secondColumnData;
+            ThirdColumnData = thirdColumnData;
+        }
+         * 
+         * MyLinkedList<string> linkedlist = new MyLinkedList<string>();
             linkedlist.Add("Name");
             linkedlist.Add("Age");
             linkedlist.Add("Sex");
