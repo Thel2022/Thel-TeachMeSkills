@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\strela\\source\\repos\\Thel-TeachMeSkills\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
+    "D:\\Students_Projects\\KDV\\Thel-TeachMeSkills\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\strela\\source\\repos\\Thel-TeachMeSkills\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+    "D:\\Students_Projects\\KDV\\Thel-TeachMeSkills\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\strela\\source\\repos\\Thel-TeachMeSkills\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "D:\\Students_Projects\\KDV\\Thel-TeachMeSkills\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\strela\\source\\repos\\Thel-TeachMeSkills\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
-        "packagesPath": "C:\\Users\\strela\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\strela\\source\\repos\\Thel-TeachMeSkills\\WebApplication1\\WebApplication1\\obj\\",
+        "projectPath": "D:\\Students_Projects\\KDV\\Thel-TeachMeSkills\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "D:\\Students_Projects\\KDV\\Thel-TeachMeSkills\\WebApplication1\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\strela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

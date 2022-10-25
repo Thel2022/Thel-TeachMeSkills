@@ -11,7 +11,7 @@ using Newtonsoft.Json;
 namespace WebApplication1.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("table/get")]
     public class JSController : ControllerBase
     {
         
