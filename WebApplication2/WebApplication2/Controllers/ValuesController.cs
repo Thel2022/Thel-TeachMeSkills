@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,7 @@ namespace WebApplication2.Controllers
     public class ValuesController : ControllerBase
     {
         private readonly IHomeService _homeService;
+        private readonly IConfiguration _config;
 
         public ValuesController(IHomeService homeService)
         {
@@ -24,6 +26,12 @@ namespace WebApplication2.Controllers
         {
             return _homeService.SaySomething();
 
+        }
+
+        [HttpGet("secret-key")]
+        public string GetKey()
+        {
+            return _config.GetValue<string>("SecretKey");
         }
     }
 }
