@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "O9X6vaXaTFEVf0fgoupDDwPN63BMiSlR+C1nzLW+YWSwmBlDrb7OODUYKrDL7K5UL7CyNq19X0V746wwY8dPxQ==",
+  "dgSpecHash": "bolRLIgEQgfJVFthTFxiUngY71HkTsVlm6XQRQu5WVbrnYzORJj6W0JTCLxMNhFZwylZYU+w5pWfAgusCvmZIQ==",
   "success": true,
   "projectFilePath": "D:\\Students_Projects\\KDV\\Thel-TeachMeSkills\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\HP\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\DELL-57\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

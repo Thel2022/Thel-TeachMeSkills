@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -32,6 +33,39 @@ namespace WebApplication2.Controllers
         public string GetKey()
         {
             return _config.GetValue<string>("SecretKey");
+        }
+
+        [HttpGet("secret-key1")]
+        public IActionResult GetKey1()
+        {
+            return Ok(_config.GetValue<string>("SecretKey"));
+        }
+
+        [HttpPost("some-data")]
+        public void SomeData([FromBody] BasicData data)
+        {
+
+        }
+
+        public class BasicData
+        {
+            public int Number { get; set; }
+            public string Text { get; set; }
+        }
+
+        public class BasicData1
+        {
+            [Range(0, 10)]
+            public int Number { get; set; }
+            [MaxLength(100)]
+            public string Text { get; set; }
+        }
+
+        [HttpGet("guid")]
+        public IActionResult GetGuid()
+        {
+            Guid g = Guid.NewGuid();
+            return Ok();
         }
     }
 }
