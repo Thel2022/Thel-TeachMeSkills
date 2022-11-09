@@ -2,12 +2,12 @@
 
 namespace WA3CRUD.Models
 {
-    public interface IMarketable
+    public interface IMarket
     {
         IEnumerable<Product> GetAll();
-        Product Get(int id);
+        Product Get(string id);
         Product Add(Product item);
-        void Remove(int id);
+        void Remove(string id);
         bool Update(Product item);
     }
 }
