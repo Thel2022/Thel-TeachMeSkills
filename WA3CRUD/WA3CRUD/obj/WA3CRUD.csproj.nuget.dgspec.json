@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Students_Projects\\KDV\\Thel-TeachMeSkills\\WA3CRUD\\WA3CRUD\\WA3CRUD.csproj": {}
+    "C:\\Users\\strela\\source\\repos\\Thel-TeachMeSkills\\WA3CRUD\\WA3CRUD\\WA3CRUD.csproj": {}
   },
   "projects": {
-    "D:\\Students_Projects\\KDV\\Thel-TeachMeSkills\\WA3CRUD\\WA3CRUD\\WA3CRUD.csproj": {
+    "C:\\Users\\strela\\source\\repos\\Thel-TeachMeSkills\\WA3CRUD\\WA3CRUD\\WA3CRUD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Students_Projects\\KDV\\Thel-TeachMeSkills\\WA3CRUD\\WA3CRUD\\WA3CRUD.csproj",
+        "projectUniqueName": "C:\\Users\\strela\\source\\repos\\Thel-TeachMeSkills\\WA3CRUD\\WA3CRUD\\WA3CRUD.csproj",
         "projectName": "WA3CRUD",
-        "projectPath": "D:\\Students_Projects\\KDV\\Thel-TeachMeSkills\\WA3CRUD\\WA3CRUD\\WA3CRUD.csproj",
-        "packagesPath": "C:\\Users\\DELL-57\\.nuget\\packages\\",
-        "outputPath": "D:\\Students_Projects\\KDV\\Thel-TeachMeSkills\\WA3CRUD\\WA3CRUD\\obj\\",
+        "projectPath": "C:\\Users\\strela\\source\\repos\\Thel-TeachMeSkills\\WA3CRUD\\WA3CRUD\\WA3CRUD.csproj",
+        "packagesPath": "C:\\Users\\strela\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\strela\\source\\repos\\Thel-TeachMeSkills\\WA3CRUD\\WA3CRUD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DELL-57\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\strela\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[13.17.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
