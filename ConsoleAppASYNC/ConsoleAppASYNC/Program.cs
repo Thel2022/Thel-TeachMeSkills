@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Threading;
@@ -10,38 +11,76 @@ namespace ConsoleAppASYNC
     {
         private static async Task Main(string[] args)
         {
+           var coffeeTask = MakeCoffee();
+           var omletteTask = MakeOmlette();
 
-            var ts = new CancellationTokenSource();
-            var token = ts.Token;
-            
+            await coffeeTask;
+            await omletteTask;
 
-            var s = new StreamWriter("text.text");
-            var sb = new StringBuilder();
-            sb.Append("Some text");
+            var taskList = new List<Task>(){ coffeeTask, omletteTask };
+            while (taskList.Count > 0)
+            {
+                var t = await Task.WhenAny(taskList);
+                if (t== coffeeTask)
+                {
 
-            
-            var t = s.WriteLineAsync(sb, token);
+                }
 
-            ts.Cancel();
+                if (t == omletteTask)
+                {
+                    var omlTask = t as Task<int>;
+                    var result = await omlTask;
+                }
 
-            await t;
+            }
 
+            //await Task.WhenAll(coffeeTask, omletteTask);
 
-            /*
-            WakeUp();
-            TurnOnTV();
-            var makingteaTask = MakeTea();
-            var fireeggsTask = FireEggs();
-            Wash();
-            var toastTask = Toasts();
-
-            await makingteaTask;
-            FriedEggs egg = await fireeggsTask;
-            Toast toast = await toastTask;
-
-            MakeSandwich(egg, toast); // (await await fireeggsTask, await toastTask)
-            */
+            Console.WriteLine("all tasks done");
         }
+            static Task MakeCoffee()
+            {
+            return Task.Delay(200);
+            }
+
+        static Task MakeOmlette()
+        {
+            return Task.Delay(200);
+        }
+
+
+        /*
+        var ts = new CancellationTokenSource();
+        var token = ts.Token;
+
+
+        var s = new StreamWriter("text.text");
+        var sb = new StringBuilder();
+        sb.Append("Some text");
+
+
+        var t = s.WriteLineAsync(sb, token);
+
+        ts.Cancel();
+
+        await t;
+        */
+
+        /*
+        WakeUp();
+        TurnOnTV();
+        var makingteaTask = MakeTea();
+        var fireeggsTask = FireEggs();
+        Wash();
+        var toastTask = Toasts();
+
+        await makingteaTask;
+        FriedEggs egg = await fireeggsTask;
+        Toast toast = await toastTask;
+
+        MakeSandwich(egg, toast); // (await await fireeggsTask, await toastTask)
+        */
+    }
         /*
         private static void WakeUp()
         {
@@ -112,4 +151,4 @@ namespace ConsoleAppASYNC
         private class Toast { }
         */
     }
-}
+
