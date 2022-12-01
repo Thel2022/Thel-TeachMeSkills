@@ -7,9 +7,11 @@ namespace WebEF.Models
     public class Person
     {
         public Guid Id { get; set; }
+
         public string Name { get; set; }
         
         public int Age { get; set; }
+
         public Guid? AddressId { get; set; }
 
         public static IEnumerable<Person> Generate(int n, Guid[] addressIds)
